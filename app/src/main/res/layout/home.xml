@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+
+
+        android:background="@drawable/template"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="27dp"
+            android:drawableEnd="@drawable/ic_search"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/tv_berlangsung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_search"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="220dp"
+            android:text="@string/sedang_berlangsung"
+            android:textColor="#E81212">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_pemilihangub"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_berlangsung"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="94dp"
+            android:text="@string/pemilihan_gubernur"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_isipemgub"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pemilihangub"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="41dp"
+            android:text="@string/pemilihan_gubernur_akan_berlangsung_hingga_21_april_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"
+            android:textColor="#000000"
+            android:textSize="11dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn_tdk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipemgub"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/btn_tidak">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_tersedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipemgub"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="209dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="76dp"
+            android:drawableEnd="@drawable/ic_notif"
+            android:text="@string/tersedia_sekarang"
+            android:textColor="#6A89FE"
+            android:textSize="11dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_segera"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_tdk1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="291dp"
+            android:text="@string/segera"
+            android:textColor="#000000">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_pemilihanwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tv_segera"
+            android:text="@string/pemilihan_walikota"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_isipemwal"
+            android:layout_width="194dp"
+            android:layout_height="43dp"
+            android:layout_below="@id/tv_pemilihanwal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="33dp"
+            android:text="@string/pemilihan_walikota_akan_berlangsung_hingga_21_mei_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"
+            android:textColor="#000000"
+            android:textSize="11dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn_tdk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipemwal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="198dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="51dp"
+            android:background="@drawable/btn_tidak">
+
+        </ImageButton>
+
+
+        <TextView
+            android:id="@+id/tv_tdktersedia1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipemwal"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="225dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="79dp"
+            android:drawableEnd="@drawable/ic_notif"
+            android:text="@string/tidak_tersedia"
+            android:textColor="#6A89FE"
+            android:textSize="11dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_pemilihanbup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_tdk2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="106dp"
+            android:text="Pemilihan Bupati"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_isipembup"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_pemilihanbup"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginEnd="44dp"
+            android:text="@string/pemilihan_bupati_akan_berlangsung_hingga_21_juni_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"
+            android:textColor="#000000"
+            android:textSize="11dp">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn_tdk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipembup"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="54dp"
+            android:background="@drawable/btn_tidak">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_tdktersedia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_isipembup"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="219dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="67dp"
+            android:drawableEnd="@drawable/ic_notif"
+            android:text="@string/tidak_tersedia"
+            android:textColor="#6A89FE"
+            android:textSize="11dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_salam"
+            android:layout_width="228dp"
+            android:layout_height="57dp"
+            android:layout_below="@id/btn_tdk3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="91dp"
+            android:text="@string/salam_satu_suara_pasti"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv_berita1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@id/btn_tdk3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginEnd="-27dp"
+            android:background="@drawable/berita1">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/iv_berita2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_below="@id/btn_tdk3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="277dp"
+            android:background="@drawable/berita2">
+
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/ib_home"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_berita2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="335dp"
+            android:background="@drawable/logohome">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_berita1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="249dp"
+            android:background="@drawable/logo2">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_berita1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="151dp"
+            android:background="@drawable/logo3">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_berita1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="334dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="53dp"
+            android:background="@drawable/logo4">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+</LinearLayout>

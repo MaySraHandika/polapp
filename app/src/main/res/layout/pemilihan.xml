@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@drawable/pemilihan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tv_makeyc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_no1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"
+            android:text="@string/make_your_choice"
+            android:textAlignment="center"
+            android:textColor="#6A89FE"
+            android:textSize="24dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_quotes"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_makeyc"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="109dp"
+            android:text="@string/jika_anda_tidak_memilih_anda_kehilangan_untuk_mengeluh_maka_pilihlah_suara_sesuai_dengan_keinginanmu"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/iv_no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="127dp"
+            android:layout_marginEnd="255dp"
+            android:src="@drawable/paslon1">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_no1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="233dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginEnd="140dp"
+            android:text="@string/no_1"
+            android:textAlignment="center"
+            android:textColor="#6A89FE"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_nama1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_no1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="74dp"
+            android:text="@string/may_sra_handika_sari_amanda_putri"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nama1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="138dp"
+            android:background="@drawable/btninfo_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nama1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="174dp"
+            android:text="@string/info_calon"
+            android:textColor="#6A89FE"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_pilih1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="138dp"
+            android:background="@drawable/btnpilih_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_pilih1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="194dp"
+            android:text="@string/pilih"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/iv_no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/paslon2">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_no2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_pilih1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/no_2"
+            android:textAlignment="center"
+            android:textColor="#6A89FE"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_nama2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="87dp"
+            android:text="@string/alif_alfarabi_b_egi_larasati"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="514dp"
+            android:layout_marginEnd="135dp"
+            android:background="@drawable/btninfo_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="516dp"
+            android:layout_marginEnd="172dp"
+            android:text="@string/info_calon"
+            android:textColor="#6A89FE"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_pilih2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="135dp"
+            android:background="@drawable/btnpilih_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_pilih2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginEnd="189dp"
+            android:text="@string/pilih"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv_no3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_info1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="270dp"
+            android:src="@drawable/paslon3">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_no3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="226dp"
+            android:text="@string/no_3"
+            android:textAlignment="center"
+            android:textColor="#6A89FE"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tv_nama3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="196dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="167dp"
+            android:text="@string/nurul_fajri_muhammad_fikri"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginEnd="139dp"
+            android:layout_marginBottom="121dp"
+            android:background="@drawable/btninfo_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="726dp"
+            android:layout_marginEnd="175dp"
+            android:text="@string/info_calon"
+            android:textColor="#6A89FE"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageButton
+            android:id="@+id/ib_pilih3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="755dp"
+            android:layout_marginEnd="137dp"
+            android:background="@drawable/btnpilih_pem">
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/tv_pilih3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="757dp"
+            android:layout_marginEnd="192dp"
+            android:text="@string/pilih"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/ib_home"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_pilih3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="335dp"
+            android:background="@drawable/logohome">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_pilih3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="249dp"
+            android:background="@drawable/logo2">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_pilih3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="237dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="151dp"
+            android:background="@drawable/logo3">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ib_logo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ib_pilih3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="334dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="53dp"
+            android:background="@drawable/logo4">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

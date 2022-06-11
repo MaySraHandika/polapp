@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">polapp</string>
+    <string name="sedang_berlangsung">Sedang Berlangsung !</string>
+    <string name="pemilihan_gubernur">Pemilihan Gubernur</string>
+    <string name="pemilihan_gubernur_akan_berlangsung_hingga_21_april_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"><![CDATA[Pemilihan Gubernur Akan Berlangsung hingga 21 April 2022 Pilihlah Sesuai dengan Visi & Misi yang kamu inginkan !]]></string>
+    <string name="tersedia_sekarang">Tersedia Sekarang</string>
+    <string name="segera">Segera !</string>
+    <string name="pemilihan_walikota_akan_berlangsung_hingga_21_mei_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"><![CDATA[Pemilihan Walikota Akan Berlangsung hingga 21 Mei 2022 Pilihlah Sesuai dengan Visi & Misi yang kamu inginkan !]]></string>
+    <string name="tidak_tersedia">Tidak Tersedia</string>
+    <string name="pemilihan_walikota">Pemilihan Walikota</string>
+    <string name="pemilihan_bupati_akan_berlangsung_hingga_21_juni_2022_pilihlah_sesuai_dengan_visi_misi_yang_kamu_inginkan"><![CDATA[Pemilihan Bupati Akan Berlangsung hingga 21 Juni 2022 Pilihlah Sesuai dengan Visi & Misi yang kamu inginkan !]]></string>
+    <string name="salam_satu_suara_pasti">Salam Satu Suara !! Pasti</string>
+    <string name="make_your_choice">Make Your Choice</string>
+    <string name="no_1">No. 1</string>
+    <string name="info_calon">Info Calon</string>
+    <string name="no_2">No. 2</string>
+    <string name="alif_alfarabi_b_egi_larasati">Alif Alfarabi. B Egi Larasati</string>
+    <string name="pilih">Pilih</string>
+    <string name="no_3">No. 3</string>
+    <string name="nurul_fajri_muhammad_fikri">Nurul Fajri Muhammad Fikri</string>
+    <string name="jika_anda_tidak_memilih_anda_kehilangan_untuk_mengeluh_maka_pilihlah_suara_sesuai_dengan_keinginanmu">Jika Anda Tidak Memilih, Anda Kehilangan Untuk Mengeluh. Maka Pilihlah Suara sesuai dengan keinginanmu !</string>
+    <string name="may_sra_handika_sari_amanda_putri">May Sra Handika Sari Amanda Putri</string>
+    <string name="pilih">Pilih</string>
+</resources>
